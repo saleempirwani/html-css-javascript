@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h2>Sign Up</h2>
+        <form action="" class="fields">
+            <div class="two-in-one">
+                <input type="text" placeholder="First Name" id="fname" required>
+                <input type="text" placeholder="Last Name" id="lname" required>
+            </div>
+            <div class="other">
+                <input type="email" placeholder="Email" id="email" required>
+                <div class="two-in-one">
+                    <input type="password" placeholder="Password" id="passwd" required>
+                    <input type="password" placeholder="Confirmed Password" id="cfmPasswd" required>
+                </div>
+                <input type="number" placeholder="Phone Number" id="phone" required>
+                <input type="text" placeholder="Pratice Field">
+                <input type="text" placeholder="Role">
+                <div class="term">
+                    <input type="checkbox" id="term" required>
+                    <label for="term">You agree to our Terms and Privacy Policy.</label>
+                </div>
+                <input type="submit" class="btn" value="Signup" id="submitBtn">
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

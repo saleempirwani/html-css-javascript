@@ -1,0 +1,20 @@
+/* body{
+    background-color: dodgerblue;
+} */
+
+.bg-showcase{
+    background-image: linear-gradient(#A5FECB, #20BDFF, #5433FF);
+}
+
+.text-274776{
+    color: #274776;
+}
+
+.text-showcase{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,153 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 5em;
+    font-family: Helvetica;
+}
+
+.card{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 10px gray;
+    margin: 1rem 1rem;
+    flex-direction: row;
+    height: auto;
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-desp{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.card-button{
+    text-align: center;
+
+}
+
+.card-button a{
+    display: inline-block;
+    width: 95%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.card-button a:hover{
+    border: 1px solid black;
+}
+ 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card-container{
+        margin: 2em;
+    }
+    .card{
+        width: 100%;
+        margin: 1rem 0rem;
+    }
+    .card-img img{
+        width: 100%;
+    }
+    
+    .card-title{
+        margin-bottom: 10px;
+    }
+    
+    .card-desp{
+        margin-bottom: 10px;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .card-container{
+        margin: 1em;
+    }
+    .card{
+        width: 50%;
+        margin: 1rem 0rem;
+    }
+    .card-img img{
+        width: 100%;
+    }
+    
+    .card-title{
+        margin-bottom: 10px;
+    }
+    
+    .card-desp{
+        margin-bottom: 10px;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .card-container{
+        margin: 1em;
+    }
+    .card{
+        width: 40%;
+        margin: 1rem 0rem;
+    }
+    
+    .card-title{
+        margin-bottom: 10px;
+    }
+    
+    .card-desp{
+        margin-bottom: 10px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .card-container{
+        margin: 1em;
+    }
+    .card{
+        width: 25%;
+        margin: 1rem 0rem;
+    }
+    .card-img img{
+        width: 100%;
+    }
+    
+    .card-title{
+        margin-bottom: 10px;
+    }
+    
+    .card-desp{
+        margin-bottom: 10px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .card{
+        width: 20%;
+    }
+}

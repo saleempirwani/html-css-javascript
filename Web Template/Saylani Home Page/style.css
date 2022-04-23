@@ -1,0 +1,334 @@
+/* @import url("media.css"); */
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 15px; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-316DC3{
+    background-color: #316DC3;
+}
+
+.bg-F7F8FA{
+    background-color: #F7F8FA;
+}
+
+.bg-333{
+    background-color: #333;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Header Top*/
+
+header .top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px 0;
+    color: white;
+}
+
+header .top-header .top-social i{
+    font-size: larger;
+    padding: 5px 5px;
+    color: white;
+    transition: 0.6s ease-in-out;
+}
+
+header .top-header .top-social i:hover{
+    background-color: white;
+    color: black;
+}
+
+header .top-header .slogan {
+    text-align: center;
+}
+
+header .top-header .top-btns a{
+    background-color: #fff;
+    padding: 4px 7px;
+    margin: 0px 2px;
+}
+
+/* Header Nav */
+
+@media (min-width: 1200px){
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+    }
+    
+    .menu-btn{
+        display: none
+    }
+    
+    .logo img{
+        width: 45%;
+    }
+    
+    header nav ul.main-menu{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    
+
+    .active {
+        background-color: #316DC3;
+        color: white;
+        border-radius: 35px;
+        font-weight: bold;
+    }   
+
+    .menu-li a{
+        padding: 8px 17px 11px 17px;
+    }
+
+    .sub-menu{
+        width: 220px;
+        position: absolute;
+        top: 112px;
+        padding-top: 12px;
+        background-color: #F7F8FA;
+        display: none;
+        z-index: 1;
+    }
+
+    .menu-li a:hover{
+        background-color: #316DC3;
+        color: white;
+        border-radius: 35px;
+    }
+    
+    
+    .menu-li:hover .sub-menu{
+        display: block;
+    }
+    
+    .sub-menu-li a{
+        display: block;
+    }
+    
+    .sub-menu-li a:hover{
+        border-radius: 0 !important;
+    }
+    
+}
+   
+/* News */
+.news{
+    padding: 10px 0;
+    background-color: #316DC3;
+    color: white;
+}
+
+/* Intro */
+.intro{
+    text-align: center;
+}
+
+.intro-container{
+        width: 80%;
+        margin: auto;
+}
+
+.intro h1{
+    font-size: 200%;
+}
+
+.intro p{
+    text-align: justify;
+}
+
+/* Counting */
+.counting{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 3vw 0;
+}
+
+.counting div{
+    width: 25%;
+}
+
+.counting h1{
+    font-size: 200%;
+}
+
+.counting h4{
+    font-size: 130%;
+}
+
+.counting div *{
+    padding-bottom: 10px;
+}
+
+/* Card Section */
+.card-section{
+    padding-top: 2vw;
+    padding-bottom: 4vw;
+    text-align: center;
+}
+
+.card-box{
+    margin-top: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+}
+
+.card *{
+    margin: 10px 0;
+}
+
+.card{
+    width: 30%;
+    margin: 1vw;
+    padding: 3vw 4vw;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.mission{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mission-side1{
+    width: 60%;
+}
+
+.mission-side1 h1{
+    margin-bottom: 20px;
+}
+
+.mission-side2{
+    width: 35%;
+}
+
+.mission-side2 h2{
+    margin-bottom: 10px;
+    display: inline-block;
+    border-bottom: 1px solid grey;
+}
+
+.mission-card-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mission-card{
+    width: 48%;
+    background-color: #F7F8FA;
+    color: blue;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.mission-card i{
+    color: blue;
+    padding-right: 10px;
+}
+
+.gallery{
+    text-align: center;
+}
+
+.image-gallery{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-gallery img{
+    width: 24.5%;
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer-contact{
+    width: 35%;
+}
+.useful-links, .footer-social{
+    width: 25%;
+}
+
+.footer-contact *{
+    margin-bottom: 3px;
+}
+
+.useful-links h2{
+    border-bottom: 1px solid lightgreen;
+}
+
+.footer-social h2{
+    margin-bottom: 10px;
+}
+
+
+.footer-social a{
+    padding: 5px 8px;
+    border-radius: 50%;
+    color: white;
+    background-color: #316DC3;
+    margin-left: 4px;
+}
+
+.footer-social a:hover{
+    background-color: #fff;
+    color: #316DC3;
+}
+
+.copyright{
+    background-color: #316DC3;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+

@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav-icon{
+    display: none;
+}
+
+.navbar{
+    background-color: orange;
+    height: 60px;
+    padding: 0 25px;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    
+}
+
+.nav-logo{
+    display: inline-flex;
+    font-size: x-large;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.nav-logo a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-li{
+    display: inline-flex;
+    margin: 0px 5px;
+    text-transform: uppercase;
+}
+
+.navbar-a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    transition: 0.6s ease;
+}
+
+.navbar-a:hover{
+    background: white;
+    color: orange;
+    border-radius: 25px;
+}
+
+.active-a{
+    background: white;
+    color: orange;
+    border-radius: 25px;
+}
+
+.navbar-dropdown{
+    width: 150px;
+    background-color: orange;
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    padding-top: 10px;
+    display: none;
+    
+}
+
+.navbar-dropdown a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    transition: 0.6s ease;
+}
+.navbar-dropdown a:hover{
+    background-color: white;
+    color: orange;
+}
+
+.navbar-li:hover .navbar-dropdown{
+    display: block;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        padding: 0 15px;
+    }
+
+    .nav-logo{
+        letter-spacing: 2px;
+    }
+    .nav-icon{
+        display: inline-block;
+        float: right;
+        
+    }
+
+    .navbar-ul{
+        width: 100%;
+        height: 190px;
+        background: orange  ;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        display: block;
+    }
+    .navbar-li{
+        display: block;
+        margin: 0;
+        padding: 15px 20px;
+    }
+    .navbar-a{
+        padding: 0px 0px;
+    }
+
+    .navbar-li:hover{
+        background: white;
+        color: orange;
+    }
+
+    .active-a{
+        background: orange;
+        color: white;
+    }
+
+}
+

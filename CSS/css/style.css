@@ -1,0 +1,42 @@
+/* CSS SELECTOR */
+
+/* Universal Selector */
+*{
+    color: blueviolet;
+}
+
+/* Type Selector */
+h3, h4, h5{
+    color: cadetblue;
+}
+
+/* Class Selector */
+p.abc{
+    color: crimson;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* ID Selector */
+#some{
+    color: orange;
+}
+
+/* Child Selector */
+p > b{
+    color: rgb(6, 230, 36);
+}
+
+/* Descendant Selector */
+p i{
+    color: darkcyan ;
+}
+
+/* Adjacent Sibling Selector */
+h1~p {
+    color: brown;
+}
+
+/* General Sibling Selector */
+h1+p{
+    color: pink;
+}

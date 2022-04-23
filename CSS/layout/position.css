@@ -1,0 +1,55 @@
+body{
+    background-color: darkcyan;
+}
+
+.white{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: inline-block;
+}
+
+.black{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: inline-block;
+}
+
+/* img{
+
+    position: relative;
+    left: 10px;
+
+} */
+
+img{
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+}
+
+.over{
+    border: 1px solid black;
+    overflow: auto;
+    width: 100%;
+    clear: both;
+}
+
+.div1{
+    background: white;
+    float: left;
+    width: 200px;
+  
+}
+
+.div2{
+    background: lightgreen;
+    float: left;
+    width: 200px;
+    
+}
+
+.clear{
+    clear: both;
+}

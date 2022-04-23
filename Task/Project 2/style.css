@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    height: 90px;
+    background-color: #fff;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.menu a {
+    padding: 0 1rem;
+    font-size: 20px;
+    color: black;
+}
+
+.showcase {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://ecrcommunity.plos.org/wp-content/uploads/sites/9/legacy-featured-images/teach-1820041_1920-16x9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.showcase h1 {
+    font-size: 300%;
+}
+
+.showcase p {
+    font-size: 150%;
+}
+
+.about-us {
+    background-color: lightgray;
+}
+
+.email-bg {
+    background-color: #43cb83;
+}
+
+.email-bg form button {
+    color: #43cb83;
+}
+
+.email-bg input {
+    border: 1px white solid;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+.email-bg input::placeholder {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .showcase {
+        height: 50vh;
+        display: flex;
+        align-items: center;
+    }
+    .showcase h1 {
+        font-size: 175%;
+        /* background-color: #fff; */
+    }
+
+    .showcase p{
+        font-size: 100%;
+    }
+}

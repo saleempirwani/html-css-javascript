@@ -1,0 +1,64 @@
+body{
+    background-color: #f7f7f7;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form{
+    margin: 5em auto;
+    background-color: white;
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: column;  
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.two-in-one{
+    display: flex;
+    flex-direction: row;
+}
+
+.two-in-one > input{
+    margin-right: 5px;
+}
+
+.two-in-one > input + input{
+margin-left: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], 
+input[type="password"], input[type="submit"]{
+    width: 93%; 
+    background-color: #F6F7F9;
+    border: 0;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 15px;;
+    margin: 10px 0;
+    outline: none;
+}
+
+.btn{
+    margin-top: 25px !important;
+    font-size: 15px;
+    background-color: skyblue !important;
+    color: white;
+    cursor: pointer;
+}
+.term{
+    text-align: left;
+}
+
+#term + label{
+    font-size: small;
+}
+
+@media (max-width: 700px){
+    .form{
+        width: 100%;
+        margin: 0 5px;
+    }
+}

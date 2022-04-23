@@ -1,0 +1,61 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.nav{
+    height: 60px;
+    background-color: white;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+ container{
+    box-sizing: border-box;
+    width: 1050px;
+    text-align: center;
+    margin: 10px auto;
+    border: 1px solid black;
+} 
+
+.card{
+    width: 250px;
+    height: 270px;
+    font-family: Calibri, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 8px 8px 6px grey;
+    padding-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+h2{
+    color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+    padding: 0% 20px;
+    margin-bottom: 30px;
+}
+
+a{
+    background-color: cornflowerblue;
+    text-decoration: none;
+    padding: 8px  25px;
+    color: white;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: navy;
+    opacity: 70%;
+}

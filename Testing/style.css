@@ -1,0 +1,11 @@
+body{
+    /* background-image: linear-gradient(to right,#83a4d4ff, #b6fbff); */
+}
+
+.card-btn-bg{
+    background-image: linear-gradient(to right, #f12711, #f5af19);
+}
+
+.nav-bg{
+    background-image: linear-gradient(to right, #f12711, #f5af19);
+}

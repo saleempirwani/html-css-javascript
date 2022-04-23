@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #222222;
+    padding: 3vw 0vw 1vw 0vw;
+    height: 10vw;
+}
+
+.top-header{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.social-icon, .logo, .search-container{
+    flex: 1;
+}
+
+.social-icon a{
+    color: gainsboro;
+    padding: 5px;
+    font-size: 1.5vw;
+}
+
+.search-container form{
+    background-color: #fff;
+    display: flex;
+}
+
+.search-bar{
+    flex: 7;
+    background-color: #444444;
+    color: #00b6ca;
+    padding: 0.6vw; 
+    font-size: 1.5vw;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.search-btn{
+    flex: 1;
+    font-size: 1.5vw;
+    background-color: #444444;
+    border: none;
+    outline: none;
+    color: #808080;
+    cursor: pointer;
+}
+
+nav{
+    width: 70%;
+    margin: auto;
+    margin-top: 2vw;
+}
+
+.nav-ul{
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-ul li:hover .nav-submenu{
+    display: flex;
+}
+
+.nav-submenu{
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #222222;
+    list-style-type: none;
+    position: absolute;
+    top: 9.4vw;
+    display: none;
+    padding-top: 0.55vw;
+}
+
+.nav-submenu li{   
+    padding: 1vw 0vw; 
+}
+
+.nav-submenu li a{   
+    padding: 0vw 2vw;
+}
+
+.nav-submenu li:hover{
+    background-color: #000;
+}
+
+.top-news{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/top-news.jpg   ');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.top-news-head{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 300%;
+    margin: 0px 2vw;
+}
+
+.content{
+    margin: 5vw 10vw;
+}
+
+.content-start{
+    display: flex;
+}
+
+.latest-news{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/India\ registers\ another\ record\ surge\ in\ new\ Covid-19\ cases\ –\ latest\ updates.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 40vw;
+    margin-left: 2vw;
+}
+
+.d-flex{
+    display: flex;
+
+}
+
+.top-site-bar{
+
+}
+
+

@@ -1,0 +1,12 @@
+.card{
+
+    background-color: bisque;
+}
+
+@media only screen and (max-width: 600px){
+    .card{
+
+        background-color: blueviolet;
+    }
+    
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <div id="nav" class="nav">
+            <a href="javascript:void(0)" id="close" class="close" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">News</a>
+            <a href="#">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <span class="open" id="open" onclick="openNav()">&#9776;</span>
+
+    </div>
+
+    <script>
+
+        function openNav(){
+            document.getElementById('open').style.display = "None"
+            document.getElementById('nav').style.width = "100%"
+        }
+
+        function closeNav(){
+            document.getElementById('open').style.display = "block"
+            document.getElementById('nav').style.width = "0%"
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 60vh;
+    background-color: #fff;
+    position: relative;
+}
+
+.header .navbar {
+    width: 100%;
+    height: 64px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.logo img {
+    width: 260px;
+    margin-left: 80px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 0 20px;
+    cursor: pointer;
+    line-height: 64px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.menu ul li:hover{
+    color: #ffa037;
+    transition: 0.3s ease-in-out;
+}
+
+.login-btn {
+    margin-right: 80px;
+    padding: 6px 32px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 24px;
+    cursor: pointer;
+    display: block;
+    background-color: #f3ef51;
+}
+
+.banner {
+    width: 80%;
+    /* height: 70%; */
+    position: absolute;
+    top: 30%;
+    left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.app-text {
+    width: 50%;
+    /* float: left; */
+    padding-left: 40px;
+}
+
+.app-text h3 {
+    margin-top: 80px;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.app-text h1 {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    position: relative;
+}
+
+.app-text p {
+    font-size: 15px;
+    margin: 24px 24px 24px 0;
+    letter-spacing: 1px;
+    padding-right: 120px;
+    text-align: justify;
+}
+
+.btn-group {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.btn-group .signup-btn {
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 12px 40px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    background-color: #ffa037;
+    color: white;
+}
+
+.btn-group .play-btn{
+    margin-left: 32px;
+    display: inline-flex;
+}
+
+.btn-group span{
+    font-size: 12px;
+    font-weight: 700;
+    margin: auto 16px;
+    cursor: pointer;
+}
+
+.play-btn-inner{
+    height: 40px;
+    width: 40px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.play-btn-inner i{
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.about-services{
+    width: 100%;
+    position: absolute;
+    top: 127%;
+    text-align: center;
+    padding: 0 80px;
+}
+
+
+.about-services ul{
+    display: inline-flex;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.about-services ul li{
+    margin: 0 40px;
+    cursor: pointer;
+}
+
+.about-services ul li img{
+    width: 96px;
+}
+
+.about-services ul li h1{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.about-services ul li p{
+    text-align: justify;
+}
+
+.social-icon {
+    position: fixed;
+    right: 30px;
+    top: 30%;
+}
+
+.social-icon ul li{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.social-icon ul li a{
+   color: #000;
+   padding: 8px;
+   display: block;
+   font-size: 23px;
+}
+
+.social-icon ul li a:hover{
+   background-color: #220efb;
+   color: #fff;
+   border-radius: 5px;
+}

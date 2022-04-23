@@ -1,0 +1,138 @@
+
+/* Screen Size: common for all */
+
+@media (max-width: 1200px){
+
+    header .top-header{
+        justify-content: center;
+    }
+
+    header .top-header .top-social, .top-btns {
+        margin: 10px 0;
+    }
+
+    header .top-header .slogan{
+        margin-bottom: 10px;
+    }
+    
+    .menu-btn{
+        /* display: block; */
+        /* position: absolute; */
+        /* background-color: yellow; */
+        /* float: right; */
+    }
+
+    .menu-btn i{
+        cursor: pointer;
+    }
+
+    header nav{
+        display: block;
+        padding: 8px;   
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo img{
+        width: 30%;
+    }
+
+    header nav ul.main-menu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        display: none;
+    }
+
+    header nav ul.show{
+        display: block;
+    }
+
+    header nav .menu-li{
+        margin: 2px 0;
+    }
+    
+    header nav .sub-menu-li{
+        margin: 5px 5px;
+    }
+  
+    header nav .sub-menu{
+        display: none;
+    }
+
+    /* header nav .menu-li:hover .sub-menu{
+        display: block;
+    } */
+
+    .counting{
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .counting div{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .card{
+        width: 100%;
+        margin: 4vw 1vw;
+    }
+
+    .mission-side1, .mission-side2, .mission-card, 
+    .image-gallery img, .footer-contact, .useful-links, 
+    .footer-social{
+        width: 100%;
+    }
+
+    .mission-side2, .image-gallery img, .footer-contact, .useful-links, 
+    .footer-social{
+        margin-top: 15px;
+    }
+
+    .footer-social h2{
+     margin-bottom: 15px;
+    }
+
+}
+
+/* Screen Size: 0px - 600px */
+
+@media (max-width: 600px){
+/*     
+    .menu-btn{
+        right: 30px;
+        top: 170px;
+    }   */
+}
+
+
+/* Screen Size: 768px - more*/
+@media (min-width: 768px){
+   
+    header .top-header .top-social, .top-btns{
+        margin: 10px 2px;
+    }
+
+    .counting div{
+        width: 50%;
+    }
+
+    .card{
+        width: 45%;
+    }
+}
+ 
+/* Screen Size: 1024px - more */
+@media (min-width: 1024px) and (max-width: 1200px){
+    header .top-header .top-social, .top-btns{
+        margin: 10px 2px;
+    }
+ 
+}
+

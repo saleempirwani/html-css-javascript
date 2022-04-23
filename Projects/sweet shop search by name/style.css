@@ -1,0 +1,41 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: pink;
+}
+
+.nav-bar{
+    padding: 10px;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+}
+
+.nav-bar img{
+    margin-right: 10px;
+}
+
+.nav-bar h2{
+    display: inline-block;
+    color: palevioletred;
+    letter-spacing: 5px;
+}
+
+.search{
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input{
+    width: 60%;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+}

@@ -1,0 +1,26 @@
+*{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+table{
+    border: 1px solid black;
+    width: 700px;
+    /* border-spacing: 10px 15px; */
+    border-collapse: collapse;
+    
+}
+
+td,th{
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid black; */
+    /* empty-cells: hide; */  /* border-collapse: separate; */  
+}
+
+tr.even{
+    background-color: lightseagreen
+}
+
+tr:hover{
+    background-color: cadetblue;
+}

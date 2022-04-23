@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Fb login</title>
+
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCdKsHDXxlBUvVxzuhYCjr3xFR8Q2ufeYc",
+            authDomain: "fb-app-76818.firebaseapp.com",
+            databaseURL: "https://fb-app-76818.firebaseio.com",
+            projectId: "fb-app-76818",
+            storageBucket: "fb-app-76818.appspot.com",
+            messagingSenderId: "25063215552",
+            appId: "1:25063215552:web:f0acb7e16e11c856563825"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+
+    <button onclick="fb_login()">Continue With Facebook</button>
+    <button onclick="logout()">Logout</button>
+    <script src="app.js"></script>
+</body>
+
+</html>

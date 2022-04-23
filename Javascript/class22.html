@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text"> <button onclick="press()">On Press</button>
+</body>
+<script>
+
+    function press() {
+        // hostname = window.location.hostname
+        // console.log(hostname)
+
+        // pathname = window.location.pathname
+        // console.log(pathname)
+
+        // port = window.location.port
+        // console.log(port)
+
+        // href = window.location.href
+        // console.log(href)
+
+        // window.location.assign('https://www.google.com/')
+
+        // window.location.reload(false) // reload from cache
+        // window.location.reload(true) // reload from server
+
+        content = "<h1>Hello from new tab...</h2>"
+        // window.open().document.write(content)
+
+        // window.open('https://www.google.com/')
+
+        // window.open("", 'win1', 'width=500, height=500, top=100, left=100')
+
+        // window.open("", "_self").document.write(content)
+        
+        var isPopBlock = window.open("", 'win1', 'width=500, height=500, top=100, left=100')
+
+        if(isPopBlock == null){
+            alert("Unblock pop windows...")
+            isPopBlock.close()
+        }
+    }
+
+</script>
+
+</html>
